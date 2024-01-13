@@ -1,27 +1,24 @@
-// MY CONFIG FULLBARBOSA 01-08-202
+// MY CONFIG FULLBARBOSA 13-01-20204
+
 {
-  "emmet.syntaxProfiles" : {
-    "javascript" : "jsx"
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
   },
-  "workbench.startupEditor" : "newUntitledFile",
-  "editor.fontSize" : 16,
-  "javascript.suggest.autoImports" : true,
-  "javascript.updateImportsOnFileMove.enabled" : "always",
-  "editor.rulers" : [
-    80,
-    120
-  ],
-  "extensions.ignoreRecommendations" : true,
-  "typescript.tsserver.log" : "off",
-  "files.associations" : {
-    ".sequelizerc" : "javascript",
-    ".stylelintrc" : "json",
-    "*.tsx" : "typescriptreact",
-    ".env.*" : "dotenv",
-    ".prettierrc" : "json"
+  "editor.fontSize": 16,
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.rulers": [80, 120],
+  "extensions.ignoreRecommendations": true,
+  "typescript.tsserver.log": "off",
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
   },
-  "screencastMode.onlyKeyboardShortcuts" : true,
-  "cSpell.userWords" : [
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "cSpell.userWords": [
     "chakra",
     "FULLBARBOSA",
     "IUGU",
@@ -32,74 +29,74 @@
     "rocketseat",
     "upsert"
   ],
-  "editor.parameterHints.enabled" : false,
-  "editor.renderLineHighlight" : "gutter",
-  "cSpell.language" : "en,pt",
-  "editor.lineHeight" : 26,
-  "material-icon-theme.languages.associations" : {
-    "dotenv" : "tune"
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "cSpell.language": "en,pt",
+  "editor.lineHeight": 26,
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
   },
-  "typescript.updateImportsOnFileMove.enabled" : "never",
-  "workbench.colorTheme" : "Aura Dark",
-  "material-icon-theme.files.associations" : {
-    "tsconfig.json" : "tune",
-    "*.webpack.js" : "webpack",
-    "*.proto" : "3d",
-    "ormconfig.json" : "database"
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "material-icon-theme.files.associations": {
+    "tsconfig.json": "tune",
+    "*.webpack.js": "webpack",
+    "*.proto": "3d",
+    "ormconfig.json": "database"
   },
 
   // codding nest
   // "material-icon-theme.activeIconPack" : "nest",
-  "editor.suggestSelection" : "first",
-  "explorer.confirmDelete" : false,
-  "gitlens.codeLens.recentChange.enabled" : false,
-  "terminal.integrated.showExitAlert" : false,
-    
-  "typescript.suggest.autoImports" : true,
-  "terminal.integrated.env.osx" : {
+
+  "editor.suggestSelection": "first",
+  "explorer.confirmDelete": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "terminal.integrated.showExitAlert": false,
+
+  "typescript.suggest.autoImports": true,
+  "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
   },
-  "workbench.editor.labelFormat" : "short",
-  "editor.fontLigatures" : true,
-  "emmet.includeLanguages" : {
-    "javascript" : "javascriptreact"
+  "workbench.editor.labelFormat": "short",
+  "editor.fontLigatures": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
   },
-  "liveshare.featureSet" : "insiders",
+  "liveshare.featureSet": "insiders",
   "material-icon-theme.folders.color": "#ef5350",
-  "material-icon-theme.folders.associations" : {
-    "adapters" : "contract",
-    "grpc" : "pipe",
-    "kube" : "kubernetes",
-    "main" : "lib",
-    "websockets" : "pipe",
-    "implementations" : "core",
-    "protos" : "pipe",
-    "entities" : "class",
-    "kafka" : "pipe",
-    "use-cases" : "functions",
-    "migrations" : "tools",
-    "schemas" : "class",
-    "useCases" : "functions",
-    "eslint-config" : "tools",
-    "typeorm" : "database",
-    "_shared" : "shared",
-    "mappers" : "meta",
-    "fakes" : "mock",
-    "modules" : "components",
-    "subscribers" : "messages",
-    "domain" : "class",
-    "protocols" : "contract",
-    "infra" : "app",
-    "view-models" : "views",
-    "presentation" : "template",
-    "dtos" : "typescript",
-    "http" : "container",
-    "providers" : "include",
-    "factories" : "class",
-    "repositories" : "mappings",
-    "account":"Guard"
+  "material-icon-theme.folders.associations": {
+    "adapters": "contract",
+    "grpc": "pipe",
+    "kube": "kubernetes",
+    "main": "lib",
+    "websockets": "pipe",
+    "implementations": "core",
+    "protos": "pipe",
+    "entities": "class",
+    "kafka": "pipe",
+    "use-cases": "functions",
+    "migrations": "tools",
+    "schemas": "class",
+    "useCases": "functions",
+    "eslint-config": "tools",
+    "typeorm": "database",
+    "_shared": "shared",
+    "mappers": "meta",
+    "fakes": "mock",
+    "modules": "components",
+    "subscribers": "messages",
+    "domain": "class",
+    "protocols": "contract",
+    "infra": "app",
+    "view-models": "views",
+    "presentation": "template",
+    "dtos": "typescript",
+    "http": "container",
+    "providers": "include",
+    "factories": "class",
+    "repositories": "mappings",
+    "account": "Guard"
   },
-  "cSpell.enableFiletypes" : [
+  "cSpell.enableFiletypes": [
     "!asciidoc",
     "!c",
     "!cpp",
@@ -116,67 +113,79 @@
     "!restructuredtext",
     "!rust",
     "!scala",
-    "!scss",
+    "!scss"
   ],
-  "editor.acceptSuggestionOnCommitCharacter" : false,
-  "explorer.compactFolders" : false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "explorer.compactFolders": false,
   // "git.enableSmartCommit" : true,
-  "editor.accessibilitySupport" : "off",
-  "explorer.confirmDragAndDrop" : false,
-  "terminal.integrated.fontSize" : 14,
-  "[prisma]" : {
-    "editor.formatOnSave" : true
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.fontSize": 14,
+  "[prisma]": {
+    "editor.formatOnSave": true
   },
 
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
-  
-  "editor.semanticHighlighting.enabled" : true,
-  "breadcrumbs.enabled" : true,
-  "workbench.productIconTheme" : "fluent-icons",
-  "editor.fontFamily" : "JetBrains Mono",
+
+  "editor.semanticHighlighting.enabled": true,
+  "breadcrumbs.enabled": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.fontFamily": "JetBrains Mono",
   // "gitlens.codeLens.authors.enabled" : false,
-  "editor.tabSize" : 2,
-  "security.workspace.trust.untrustedFiles" : "newWindow",
-  "files.exclude" : {
-    "**\/CVS" : true,
-    "**\/.DS_Store" : true,
-    "**\/.hg" : true,
-    "**\/.svn" : true,
-    "**\/.git" : true
+  "editor.tabSize": 2,
+  "workbench.tree.indent": 16,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "files.exclude": {
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/.git": true
   },
   "diffEditor.codeLens": true,
   "git.mergeEditor": false,
   "gitlens.codeLens.enabled": false,
   "workbench.iconTheme": "material-icon-theme",
   "editor.inlineSuggest.enabled": true,
-  "workbench.editor.enablePreview": false,
   "tabnine.experimentalAutoImports": true,
-  "workbench.layoutControl.enabled": false,
   "github.copilot.enable": {
     "*": true,
-    "yaml": true,
     "plaintext": true,
-    "markdown": false
+    "markdown": true,
+    "scminput": false,
+    "yaml": true
   },
   "terminal.integrated.gpuAcceleration": "off",
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.rulers": [
-      80
-    ],
+    "editor.rulers": [80],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
+    "editor.wordBasedSuggestions": "off"
   },
- 
+
   "editor.guides.bracketPairsHorizontal": true,
   "editor.guides.bracketPairs": true,
   "git.autofetch": true,
-  "editor.wordWrap": "on"
+  "editor.wordWrap": "on",
+  "workbench.editor.enablePreview": false,
+  "workbench.colorTheme": "Aura Dark",
+  "workbench.startupEditor": "none",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
+  // tailwindCSS tv
+  "tailwindCSS.experimental.classRegex": [
+    ["tv\\((([^()]*|\\([^()]*\\))*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ]
+  
 }
